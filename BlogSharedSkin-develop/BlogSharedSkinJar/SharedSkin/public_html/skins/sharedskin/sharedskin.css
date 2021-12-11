@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/**ADFFaces_Skin_File / DO NOT REMOVE**/
+@namespace af "http://xmlns.oracle.com/adf/faces/rich";
+@namespace dvt "http://xmlns.oracle.com/dss/adf/faces";
+@font-face {font-family: "ArbFONTS";
+   src:  url('adf/fonts/ArbFONTS-43-DecoType-Naskh-Variants.ttf');
+}
+af|button::text {
+    color: Red; 
+}
+af|button {
+  font-family: "ArbFONTS" !important;
+}
+
+af|link::text {
+    color: Lime; 
+}
